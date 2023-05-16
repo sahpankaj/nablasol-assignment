@@ -1,0 +1,107 @@
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.steps {
+  height: 50px;
+  text-align: center;
+  display: flex;
+}
+.stepper {
+  background-color: rgba(153, 151, 151, 0.178);
+  border-radius: 20px 20px 0px 0px;
+}
+
+.input {
+  border: 1.5px solid #abb9da;
+  padding: 3px 0px 3px 12px;
+  border-radius: 5px;
+  box-shadow: none;
+  margin: 5px 0px 0px 0px;
+}
+.choosen_file {
+  border: 1.5px solid #abb9da;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: none;
+  width: 100%;
+  font-size: 15px;
+  color: rgb(92, 90, 90);
+}
+
+.input_label span {
+  color: #5eaaff;
+}
+
+#company_logo {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 10px rgb(55, 55, 104);
+}
+#heading {
+  font-size: 30px;
+  color: white;
+}
+
+.input_label {
+  color: #5c6a84;
+  size: "small";
+  font-size: small;
+  font-weight: 520;
+}
+.error {
+  margin: 0px;
+  font-size: 12px;
+  color: rgb(204, 25, 25);
+}
+
+.btn {
+  width: 150px;
+  padding: 9px;
+  border-radius: 5px;
+  margin: 0px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  box-shadow: none;
+}
+@media screen and (max-width: 480px) {
+  #heading {
+    font-size: medium;
+    color: white;
+  }
+}
+@media screen and (max-width: 400px) {
+  .steps {
+    height: 60px;
+    text-align: center;
+    display: flex;
+    padding: 10px 0px;
+  }
+  #heading {
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+  }
+  #company_logo {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px rgb(55, 55, 104);
+  }
+  a {
+    color: white;
+    text-decoration: underline;
+    font-size: 12px;
+  }
+}
+::-webkit-file-upload-button {
+  display: none;
+}
